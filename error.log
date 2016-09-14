@@ -4011,3 +4011,1718 @@ Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0
 2016-09-12T06:41:20 [DEBUG] [/sync] Pull Status:  at /home/ec2-user/repos/AISync/aisync.pl line 101
 
 127.0.0.1 - - [12/Sep/2016:06:41:21 +0000] "POST /sync HTTP/1.0" 200 1 "-" "GitHub-Hookshot/ebd57e0"
+2016-09-12T06:58:24 [DEBUG] [/sync] Payload was: $VAR1 = {
+          'ref' => 'refs/heads/master',
+          'deleted' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+          'commits' => [
+                         {
+                           'distinct' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                           'committer' => {
+                                            'username' => 'Bhat-Gurunandan',
+                                            'email' => 'gbhat@pobox.com',
+                                            'name' => 'Gurunandan Bhat'
+                                          },
+                           'id' => 'b97c11a00dd06dda2b7cdd2b2ddf7f7a83a0a915',
+                           'timestamp' => '2016-09-12T08:58:18+02:00',
+                           'added' => [],
+                           'author' => {
+                                         'name' => 'Gurunandan Bhat',
+                                         'username' => 'Bhat-Gurunandan',
+                                         'email' => 'gbhat@pobox.com'
+                                       },
+                           'removed' => [],
+                           'message' => 'Fixed Broken link in manuscript competition',
+                           'modified' => [
+                                           'site/winter_2014/manuscript_competition/almost_island_manuscript_competition.html',
+                                           'site/winter_2014/manuscript_competition/almost_island_manuscript_competition_2.html',
+                                           'site/winter_2014/manuscript_competition/almost_island_manuscript_competition_3.html',
+                                           'site/winter_2014/manuscript_competition/almost_island_manuscript_competition_4.html'
+                                         ],
+                           'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/b97c11a00dd06dda2b7cdd2b2ddf7f7a83a0a915',
+                           'tree_id' => 'bd96b5ef38deb7ea9d5fb73a4f3d18b26f2ce2b4'
+                         }
+                       ],
+          'base_ref' => undef,
+          'pusher' => {
+                        'name' => 'Bhat-Gurunandan',
+                        'email' => 'bhat.gurunandan@gmail.com'
+                      },
+          'sender' => {
+                        'following_url' => 'https://api.github.com/users/Bhat-Gurunandan/following{/other_user}',
+                        'events_url' => 'https://api.github.com/users/Bhat-Gurunandan/events{/privacy}',
+                        'organizations_url' => 'https://api.github.com/users/Bhat-Gurunandan/orgs',
+                        'repos_url' => 'https://api.github.com/users/Bhat-Gurunandan/repos',
+                        'html_url' => 'https://github.com/Bhat-Gurunandan',
+                        'gists_url' => 'https://api.github.com/users/Bhat-Gurunandan/gists{/gist_id}',
+                        'login' => 'Bhat-Gurunandan',
+                        'type' => 'User',
+                        'followers_url' => 'https://api.github.com/users/Bhat-Gurunandan/followers',
+                        'url' => 'https://api.github.com/users/Bhat-Gurunandan',
+                        'gravatar_id' => '',
+                        'subscriptions_url' => 'https://api.github.com/users/Bhat-Gurunandan/subscriptions',
+                        'avatar_url' => 'https://avatars.githubusercontent.com/u/420270?v=3',
+                        'id' => 420270,
+                        'received_events_url' => 'https://api.github.com/users/Bhat-Gurunandan/received_events',
+                        'starred_url' => 'https://api.github.com/users/Bhat-Gurunandan/starred{/owner}{/repo}',
+                        'site_admin' => $VAR1->{'deleted'}
+                      },
+          'head_commit' => {
+                             'modified' => [
+                                             'site/winter_2014/manuscript_competition/almost_island_manuscript_competition.html',
+                                             'site/winter_2014/manuscript_competition/almost_island_manuscript_competition_2.html',
+                                             'site/winter_2014/manuscript_competition/almost_island_manuscript_competition_3.html',
+                                             'site/winter_2014/manuscript_competition/almost_island_manuscript_competition_4.html'
+                                           ],
+                             'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/b97c11a00dd06dda2b7cdd2b2ddf7f7a83a0a915',
+                             'message' => 'Fixed Broken link in manuscript competition',
+                             'tree_id' => 'bd96b5ef38deb7ea9d5fb73a4f3d18b26f2ce2b4',
+                             'distinct' => $VAR1->{'commits'}[0]{'distinct'},
+                             'committer' => {
+                                              'username' => 'Bhat-Gurunandan',
+                                              'email' => 'gbhat@pobox.com',
+                                              'name' => 'Gurunandan Bhat'
+                                            },
+                             'id' => 'b97c11a00dd06dda2b7cdd2b2ddf7f7a83a0a915',
+                             'added' => [],
+                             'timestamp' => '2016-09-12T08:58:18+02:00',
+                             'author' => {
+                                           'email' => 'gbhat@pobox.com',
+                                           'username' => 'Bhat-Gurunandan',
+                                           'name' => 'Gurunandan Bhat'
+                                         },
+                             'removed' => []
+                           },
+          'compare' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/compare/242f67607b23...b97c11a00dd0',
+          'forced' => $VAR1->{'deleted'},
+          'before' => '242f67607b23d0be107203871aa7a06e8cf322f8',
+          'created' => $VAR1->{'deleted'},
+          'after' => 'b97c11a00dd06dda2b7cdd2b2ddf7f7a83a0a915',
+          'repository' => {
+                            'teams_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/teams',
+                            'full_name' => 'Bhat-Gurunandan/AlmostIsland',
+                            'comments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/comments{/number}',
+                            'issue_events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/events{/number}',
+                            'compare_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/compare/{base}...{head}',
+                            'stargazers_count' => 0,
+                            'releases_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/releases{/id}',
+                            'owner' => {
+                                         'name' => 'Bhat-Gurunandan',
+                                         'email' => 'bhat.gurunandan@gmail.com'
+                                       },
+                            'trees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/trees{/sha}',
+                            'id' => 58767964,
+                            'has_wiki' => $VAR1->{'commits'}[0]{'distinct'},
+                            'git_tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/tags{/sha}',
+                            'forks_count' => 0,
+                            'archive_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/{archive_format}{/ref}',
+                            'blobs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/blobs{/sha}',
+                            'language' => 'HTML',
+                            'milestones_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/milestones{/number}',
+                            'homepage' => undef,
+                            'issue_comment_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/comments{/number}',
+                            'stargazers' => 0,
+                            'watchers' => 0,
+                            'events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/events',
+                            'languages_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/languages',
+                            'created_at' => 1463168566,
+                            'keys_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/keys{/key_id}',
+                            'fork' => $VAR1->{'commits'}[0]{'distinct'},
+                            'subscription_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscription',
+                            'collaborators_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/collaborators{/collaborator}',
+                            'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'clone_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'forks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/forks',
+                            'default_branch' => 'master',
+                            'ssh_url' => 'git@github.com:Bhat-Gurunandan/AlmostIsland.git',
+                            'notifications_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/notifications{?since,all,participating}',
+                            'html_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'downloads_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/downloads',
+                            'stargazers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/stargazers',
+                            'forks' => 0,
+                            'watchers_count' => 0,
+                            'has_pages' => $VAR1->{'deleted'},
+                            'git_refs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/refs{/sha}',
+                            'mirror_url' => undef,
+                            'size' => 60933,
+                            'private' => $VAR1->{'commits'}[0]{'distinct'},
+                            'merges_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/merges',
+                            'has_downloads' => $VAR1->{'commits'}[0]{'distinct'},
+                            'svn_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'contents_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contents/{+path}',
+                            'subscribers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscribers',
+                            'name' => 'AlmostIsland',
+                            'master_branch' => 'master',
+                            'deployments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/deployments',
+                            'has_issues' => $VAR1->{'deleted'},
+                            'issues_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues{/number}',
+                            'branches_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/branches{/branch}',
+                            'description' => 'AlmostIsland online literature journal website',
+                            'hooks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/hooks',
+                            'labels_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/labels{/name}',
+                            'open_issues_count' => 0,
+                            'tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/tags',
+                            'pulls_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/pulls{/number}',
+                            'updated_at' => '2016-05-13T19:42:48Z',
+                            'pushed_at' => 1473663503,
+                            'contributors_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contributors',
+                            'commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/commits{/sha}',
+                            'assignees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/assignees{/user}',
+                            'git_commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/commits{/sha}',
+                            'open_issues' => 0,
+                            'statuses_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/statuses/{sha}',
+                            'git_url' => 'git://github.com/Bhat-Gurunandan/AlmostIsland.git'
+                          }
+        };
+ at /home/ec2-user/repos/AISync/aisync.pl line 77
+
+2016-09-12T06:58:24 [DEBUG] [/sync] Validation: sha1=404f60d122b3173e0e9291135782c6b09dca87ad|sha1=404f60d122b3173e0e9291135782c6b09dca87ad Matched: Yes at /home/ec2-user/repos/AISync/aisync.pl line 83
+
+2016-09-12T06:58:24 [DEBUG] [/sync] Head Commit on Local|Remote is: 242f67607b23d0be107203871aa7a06e8cf322f8|b97c11a00dd06dda2b7cdd2b2ddf7f7a83a0a915 at /home/ec2-user/repos/AISync/aisync.pl line 94
+
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists. at /home/ec2-user/repos/AISync/aisync.pl line 100.
+Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/Log/Minimal.pm line 195.
+2016-09-12T06:58:24 [DEBUG] [/sync] Pull Status:  at /home/ec2-user/repos/AISync/aisync.pl line 101
+
+127.0.0.1 - - [12/Sep/2016:06:58:24 +0000] "POST /sync HTTP/1.0" 200 1 "-" "GitHub-Hookshot/ebd57e0"
+Sending children hup signal
+2016/09/12-21:34:24 Server closing!
+Process Backgrounded
+2016/09/14-08:20:33 Starman::Server (type Net::Server::PreFork) starting! pid(9844)
+Resolved [*]:5000 to [0.0.0.0]:5000, IPv4
+Binding to TCP port 5000 on host 0.0.0.0 with IPv4
+Setting gid to "500 500 10 500"
+Starman: Accepting connections at http://*:5000/
+2016-09-14T08:21:32 [DEBUG] [/sync] Payload was: $VAR1 = {
+          'before' => 'b97c11a00dd06dda2b7cdd2b2ddf7f7a83a0a915',
+          'repository' => {
+                            'private' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                            'full_name' => 'Bhat-Gurunandan/AlmostIsland',
+                            'pulls_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/pulls{/number}',
+                            'statuses_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/statuses/{sha}',
+                            'blobs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/blobs{/sha}',
+                            'branches_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/branches{/branch}',
+                            'subscription_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscription',
+                            'stargazers_count' => 0,
+                            'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'description' => 'AlmostIsland online literature journal website',
+                            'pushed_at' => 1473828733,
+                            'master_branch' => 'master',
+                            'comments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/comments{/number}',
+                            'has_issues' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+                            'stargazers' => 0,
+                            'notifications_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/notifications{?since,all,participating}',
+                            'forks_count' => 0,
+                            'contents_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contents/{+path}',
+                            'labels_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/labels{/name}',
+                            'events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/events',
+                            'open_issues' => 0,
+                            'stargazers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/stargazers',
+                            'open_issues_count' => 0,
+                            'html_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'has_wiki' => $VAR1->{'repository'}{'private'},
+                            'has_pages' => $VAR1->{'repository'}{'has_issues'},
+                            'watchers' => 0,
+                            'tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/tags',
+                            'archive_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/{archive_format}{/ref}',
+                            'merges_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/merges',
+                            'assignees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/assignees{/user}',
+                            'language' => 'HTML',
+                            'deployments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/deployments',
+                            'name' => 'AlmostIsland',
+                            'owner' => {
+                                         'email' => 'bhat.gurunandan@gmail.com',
+                                         'name' => 'Bhat-Gurunandan'
+                                       },
+                            'homepage' => undef,
+                            'fork' => $VAR1->{'repository'}{'private'},
+                            'git_commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/commits{/sha}',
+                            'forks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/forks',
+                            'updated_at' => '2016-05-13T19:42:48Z',
+                            'collaborators_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/collaborators{/collaborator}',
+                            'has_downloads' => $VAR1->{'repository'}{'private'},
+                            'size' => 60939,
+                            'mirror_url' => undef,
+                            'releases_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/releases{/id}',
+                            'trees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/trees{/sha}',
+                            'contributors_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contributors',
+                            'languages_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/languages',
+                            'downloads_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/downloads',
+                            'hooks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/hooks',
+                            'svn_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'git_url' => 'git://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'milestones_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/milestones{/number}',
+                            'compare_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/compare/{base}...{head}',
+                            'issues_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues{/number}',
+                            'issue_events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/events{/number}',
+                            'commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/commits{/sha}',
+                            'git_refs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/refs{/sha}',
+                            'ssh_url' => 'git@github.com:Bhat-Gurunandan/AlmostIsland.git',
+                            'issue_comment_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/comments{/number}',
+                            'watchers_count' => 0,
+                            'forks' => 0,
+                            'id' => 58767964,
+                            'default_branch' => 'master',
+                            'clone_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'git_tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/tags{/sha}',
+                            'teams_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/teams',
+                            'subscribers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscribers',
+                            'keys_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/keys{/key_id}',
+                            'created_at' => 1463168566
+                          },
+          'base_ref' => undef,
+          'sender' => {
+                        'id' => 15793855,
+                        'type' => 'User',
+                        'gists_url' => 'https://api.github.com/users/rhymebawd/gists{/gist_id}',
+                        'gravatar_id' => '',
+                        'html_url' => 'https://github.com/rhymebawd',
+                        'subscriptions_url' => 'https://api.github.com/users/rhymebawd/subscriptions',
+                        'starred_url' => 'https://api.github.com/users/rhymebawd/starred{/owner}{/repo}',
+                        'received_events_url' => 'https://api.github.com/users/rhymebawd/received_events',
+                        'avatar_url' => 'https://avatars.githubusercontent.com/u/15793855?v=3',
+                        'events_url' => 'https://api.github.com/users/rhymebawd/events{/privacy}',
+                        'repos_url' => 'https://api.github.com/users/rhymebawd/repos',
+                        'site_admin' => $VAR1->{'repository'}{'has_issues'},
+                        'url' => 'https://api.github.com/users/rhymebawd',
+                        'organizations_url' => 'https://api.github.com/users/rhymebawd/orgs',
+                        'followers_url' => 'https://api.github.com/users/rhymebawd/followers',
+                        'login' => 'rhymebawd',
+                        'following_url' => 'https://api.github.com/users/rhymebawd/following{/other_user}'
+                      },
+          'after' => '8dd269e661a573cc6f84c83b6cd82803771b8094',
+          'pusher' => {
+                        'email' => 'rhymebawd@gmail.com',
+                        'name' => 'rhymebawd'
+                      },
+          'ref' => 'refs/heads/master',
+          'head_commit' => {
+                             'message' => 'corrected line breaks in dhoomil (monsoon 2015)',
+                             'author' => {
+                                           'email' => 'rhymebawd@gmail.com',
+                                           'username' => 'rhymebawd',
+                                           'name' => 'rhymebawd'
+                                         },
+                             'distinct' => $VAR1->{'repository'}{'private'},
+                             'modified' => [],
+                             'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/8dd269e661a573cc6f84c83b6cd82803771b8094',
+                             'committer' => {
+                                              'username' => 'rhymebawd',
+                                              'email' => 'rhymebawd@gmail.com',
+                                              'name' => 'rhymebawd'
+                                            },
+                             'timestamp' => '2016-09-14T10:21:57+05:30',
+                             'added' => [
+                                          'source/monsoon_2015/poetry/page/five_poems.html'
+                                        ],
+                             'removed' => [],
+                             'id' => '8dd269e661a573cc6f84c83b6cd82803771b8094',
+                             'tree_id' => '3e93404edb638f2891e4bfe51cf3730794c4e37a'
+                           },
+          'commits' => [
+                         {
+                           'author' => {
+                                         'name' => 'rhymebawd',
+                                         'username' => 'rhymebawd',
+                                         'email' => 'rhymebawd@gmail.com'
+                                       },
+                           'message' => 'corrected line breaks in dhoomil (monsoon 2015)',
+                           'modified' => [],
+                           'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/8dd269e661a573cc6f84c83b6cd82803771b8094',
+                           'distinct' => $VAR1->{'repository'}{'private'},
+                           'added' => [
+                                        'source/monsoon_2015/poetry/page/five_poems.html'
+                                      ],
+                           'committer' => {
+                                            'email' => 'rhymebawd@gmail.com',
+                                            'username' => 'rhymebawd',
+                                            'name' => 'rhymebawd'
+                                          },
+                           'timestamp' => '2016-09-14T10:21:57+05:30',
+                           'tree_id' => '3e93404edb638f2891e4bfe51cf3730794c4e37a',
+                           'id' => '8dd269e661a573cc6f84c83b6cd82803771b8094',
+                           'removed' => []
+                         }
+                       ],
+          'compare' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/compare/b97c11a00dd0...8dd269e661a5',
+          'deleted' => $VAR1->{'repository'}{'has_issues'},
+          'forced' => $VAR1->{'repository'}{'has_issues'},
+          'created' => $VAR1->{'repository'}{'has_issues'}
+        };
+ at /home/ec2-user/repos/AISync/aisync.pl line 77
+
+2016-09-14T08:21:32 [DEBUG] [/sync] Validation: sha1=c90b3a7622eca629fbeb0da729fce956f79d999f|sha1=c90b3a7622eca629fbeb0da729fce956f79d999f Matched: Yes at /home/ec2-user/repos/AISync/aisync.pl line 83
+
+2016-09-14T08:21:32 [DEBUG] [/sync] Head Commit on Local|Remote is: b97c11a00dd06dda2b7cdd2b2ddf7f7a83a0a915|8dd269e661a573cc6f84c83b6cd82803771b8094 at /home/ec2-user/repos/AISync/aisync.pl line 94
+
+From github.com:Bhat-Gurunandan/AlmostIsland
+ * branch            master     -> FETCH_HEAD
+   b97c11a..8dd269e  master     -> origin/master at /home/ec2-user/repos/AISync/aisync.pl line 100.
+Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/Log/Minimal.pm line 195.
+2016-09-14T08:21:33 [DEBUG] [/sync] Pull Status:  at /home/ec2-user/repos/AISync/aisync.pl line 101
+
+Cannot open /home/ec2-user/repos/AlmostIsland/site/spring_1950/index.html: No such file or directory
+ at /home/ec2-user/repos/AICode/bin/../lib/AIWeb/Command/Test.pm line 315.
+	AIWeb::Command::Test::_build_index(ARRAY(0x2b63b88)) called at /home/ec2-user/repos/AICode/bin/../lib/AIWeb/Command/Test.pm line 94
+	AIWeb::Command::Test::execute(AIWeb::Command::Test=HASH(0x2c0da10), Getopt::Long::Descriptive::Opts::__OPT__::2=HASH(0x2d59250), ARRAY(0x1232ec8)) called at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/App/Cmd.pm line 468
+	App::Cmd::execute_command(AIWeb=HASH(0x1be5fd0), AIWeb::Command::Test=HASH(0x2c0da10), Getopt::Long::Descriptive::Opts::__OPT__::2=HASH(0x2d59250)) called at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/App/Cmd.pm line 321
+	App::Cmd::run("AIWeb") called at /home/ec2-user/repos/AICode/bin/aiweb.pl line 7
+2016-09-14T08:21:33 [DEBUG] [/sync] Build Status: $VAR1 = [
+          512
+        ];
+ at /home/ec2-user/repos/AISync/aisync.pl line 105
+
+Everything up-to-date at /home/ec2-user/repos/AISync/aisync.pl line 110.
+To git@github.com:striverconniver/AlmostIsland.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:striverconniver/AlmostIsland.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details. at /home/ec2-user/repos/AISync/aisync.pl line 111.
+Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/Log/Minimal.pm line 195.
+2016-09-14T08:21:34 [DEBUG] [/sync] Refresh Status:  at /home/ec2-user/repos/AISync/aisync.pl line 112
+
+127.0.0.1 - - [14/Sep/2016:08:21:34 +0200] "POST /sync HTTP/1.0" 200 1 "-" "GitHub-Hookshot/a5ffa81"
+2016-09-14T15:34:31 [DEBUG] [/sync] Payload was: $VAR1 = {
+          'after' => '804f5b0039e2fe39365aa58f6c84caba4739d31a',
+          'sender' => {
+                        'repos_url' => 'https://api.github.com/users/rhymebawd/repos',
+                        'events_url' => 'https://api.github.com/users/rhymebawd/events{/privacy}',
+                        'received_events_url' => 'https://api.github.com/users/rhymebawd/received_events',
+                        'avatar_url' => 'https://avatars.githubusercontent.com/u/15793855?v=3',
+                        'site_admin' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+                        'followers_url' => 'https://api.github.com/users/rhymebawd/followers',
+                        'url' => 'https://api.github.com/users/rhymebawd',
+                        'organizations_url' => 'https://api.github.com/users/rhymebawd/orgs',
+                        'login' => 'rhymebawd',
+                        'following_url' => 'https://api.github.com/users/rhymebawd/following{/other_user}',
+                        'type' => 'User',
+                        'id' => 15793855,
+                        'gists_url' => 'https://api.github.com/users/rhymebawd/gists{/gist_id}',
+                        'gravatar_id' => '',
+                        'starred_url' => 'https://api.github.com/users/rhymebawd/starred{/owner}{/repo}',
+                        'html_url' => 'https://github.com/rhymebawd',
+                        'subscriptions_url' => 'https://api.github.com/users/rhymebawd/subscriptions'
+                      },
+          'base_ref' => undef,
+          'repository' => {
+                            'homepage' => undef,
+                            'fork' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                            'deployments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/deployments',
+                            'name' => 'AlmostIsland',
+                            'owner' => {
+                                         'email' => 'bhat.gurunandan@gmail.com',
+                                         'name' => 'Bhat-Gurunandan'
+                                       },
+                            'merges_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/merges',
+                            'assignees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/assignees{/user}',
+                            'language' => 'HTML',
+                            'trees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/trees{/sha}',
+                            'mirror_url' => undef,
+                            'releases_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/releases{/id}',
+                            'languages_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/languages',
+                            'contributors_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contributors',
+                            'collaborators_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/collaborators{/collaborator}',
+                            'size' => 60552,
+                            'has_downloads' => $VAR1->{'repository'}{'fork'},
+                            'forks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/forks',
+                            'updated_at' => '2016-05-13T19:42:48Z',
+                            'git_commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/commits{/sha}',
+                            'ssh_url' => 'git@github.com:Bhat-Gurunandan/AlmostIsland.git',
+                            'issue_events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/events{/number}',
+                            'git_refs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/refs{/sha}',
+                            'commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/commits{/sha}',
+                            'git_url' => 'git://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'milestones_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/milestones{/number}',
+                            'compare_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/compare/{base}...{head}',
+                            'issues_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues{/number}',
+                            'downloads_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/downloads',
+                            'hooks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/hooks',
+                            'svn_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'keys_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/keys{/key_id}',
+                            'created_at' => 1463168566,
+                            'git_tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/tags{/sha}',
+                            'subscribers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscribers',
+                            'teams_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/teams',
+                            'id' => 58767964,
+                            'default_branch' => 'master',
+                            'clone_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'issue_comment_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/comments{/number}',
+                            'watchers_count' => 0,
+                            'forks' => 0,
+                            'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'stargazers_count' => 0,
+                            'branches_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/branches{/branch}',
+                            'subscription_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscription',
+                            'private' => $VAR1->{'repository'}{'fork'},
+                            'pulls_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/pulls{/number}',
+                            'full_name' => 'Bhat-Gurunandan/AlmostIsland',
+                            'statuses_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/statuses/{sha}',
+                            'blobs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/blobs{/sha}',
+                            'has_issues' => $VAR1->{'sender'}{'site_admin'},
+                            'comments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/comments{/number}',
+                            'master_branch' => 'master',
+                            'description' => 'AlmostIsland online literature journal website',
+                            'pushed_at' => 1473860071,
+                            'open_issues' => 0,
+                            'contents_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contents/{+path}',
+                            'labels_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/labels{/name}',
+                            'events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/events',
+                            'forks_count' => 0,
+                            'stargazers' => 0,
+                            'notifications_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/notifications{?since,all,participating}',
+                            'watchers' => 0,
+                            'tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/tags',
+                            'archive_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/{archive_format}{/ref}',
+                            'html_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'has_wiki' => $VAR1->{'repository'}{'fork'},
+                            'has_pages' => $VAR1->{'sender'}{'site_admin'},
+                            'open_issues_count' => 0,
+                            'stargazers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/stargazers'
+                          },
+          'before' => '8dd269e661a573cc6f84c83b6cd82803771b8094',
+          'created' => $VAR1->{'sender'}{'site_admin'},
+          'forced' => $VAR1->{'sender'}{'site_admin'},
+          'deleted' => $VAR1->{'sender'}{'site_admin'},
+          'compare' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/compare/8dd269e661a5...804f5b0039e2',
+          'commits' => [
+                         {
+                           'distinct' => $VAR1->{'repository'}{'fork'},
+                           'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/804f5b0039e2fe39365aa58f6c84caba4739d31a',
+                           'modified' => [
+                                           'source/monsoon_2015/poetry/page/five_poems.html'
+                                         ],
+                           'message' => 'small change to test push',
+                           'author' => {
+                                         'username' => 'rhymebawd',
+                                         'email' => 'rhymebawd@gmail.com',
+                                         'name' => 'rhymebawd'
+                                       },
+                           'removed' => [],
+                           'id' => '804f5b0039e2fe39365aa58f6c84caba4739d31a',
+                           'tree_id' => '585f6d990d4233a3da2c9e673ab6d34f0c811e6e',
+                           'committer' => {
+                                            'name' => 'rhymebawd',
+                                            'email' => 'rhymebawd@gmail.com',
+                                            'username' => 'rhymebawd'
+                                          },
+                           'timestamp' => '2016-09-14T19:04:14+05:30',
+                           'added' => []
+                         }
+                       ],
+          'ref' => 'refs/heads/master',
+          'head_commit' => {
+                             'removed' => [],
+                             'id' => '804f5b0039e2fe39365aa58f6c84caba4739d31a',
+                             'tree_id' => '585f6d990d4233a3da2c9e673ab6d34f0c811e6e',
+                             'committer' => {
+                                              'name' => 'rhymebawd',
+                                              'username' => 'rhymebawd',
+                                              'email' => 'rhymebawd@gmail.com'
+                                            },
+                             'timestamp' => '2016-09-14T19:04:14+05:30',
+                             'added' => [],
+                             'distinct' => $VAR1->{'repository'}{'fork'},
+                             'modified' => [
+                                             'source/monsoon_2015/poetry/page/five_poems.html'
+                                           ],
+                             'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/804f5b0039e2fe39365aa58f6c84caba4739d31a',
+                             'message' => 'small change to test push',
+                             'author' => {
+                                           'email' => 'rhymebawd@gmail.com',
+                                           'username' => 'rhymebawd',
+                                           'name' => 'rhymebawd'
+                                         }
+                           },
+          'pusher' => {
+                        'email' => 'rhymebawd@gmail.com',
+                        'name' => 'rhymebawd'
+                      }
+        };
+ at /home/ec2-user/repos/AISync/aisync.pl line 77
+
+2016-09-14T15:34:31 [DEBUG] [/sync] Validation: sha1=a16c3514adbaffead21a005801ad0b22cab12dce|sha1=a16c3514adbaffead21a005801ad0b22cab12dce Matched: Yes at /home/ec2-user/repos/AISync/aisync.pl line 83
+
+2016-09-14T15:34:31 [DEBUG] [/sync] Head Commit on Local|Remote is: 8dd269e661a573cc6f84c83b6cd82803771b8094|804f5b0039e2fe39365aa58f6c84caba4739d31a at /home/ec2-user/repos/AISync/aisync.pl line 94
+
+From github.com:Bhat-Gurunandan/AlmostIsland
+ * branch            master     -> FETCH_HEAD
+   8dd269e..804f5b0  master     -> origin/master at /home/ec2-user/repos/AISync/aisync.pl line 100.
+Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/Log/Minimal.pm line 195.
+2016-09-14T15:34:32 [DEBUG] [/sync] Pull Status:  at /home/ec2-user/repos/AISync/aisync.pl line 101
+
+Cannot open /home/ec2-user/repos/AlmostIsland/site/spring_1950/index.html: No such file or directory
+ at /home/ec2-user/repos/AICode/bin/../lib/AIWeb/Command/Test.pm line 315.
+	AIWeb::Command::Test::_build_index(ARRAY(0x3860a08)) called at /home/ec2-user/repos/AICode/bin/../lib/AIWeb/Command/Test.pm line 94
+	AIWeb::Command::Test::execute(AIWeb::Command::Test=HASH(0x39073d0), Getopt::Long::Descriptive::Opts::__OPT__::2=HASH(0x3a3ffc0), ARRAY(0x1f4aee8)) called at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/App/Cmd.pm line 468
+	App::Cmd::execute_command(AIWeb=HASH(0x1b75e60), AIWeb::Command::Test=HASH(0x39073d0), Getopt::Long::Descriptive::Opts::__OPT__::2=HASH(0x3a3ffc0)) called at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/App/Cmd.pm line 321
+	App::Cmd::run("AIWeb") called at /home/ec2-user/repos/AICode/bin/aiweb.pl line 7
+2016-09-14T15:34:32 [DEBUG] [/sync] Build Status: $VAR1 = [
+          512
+        ];
+ at /home/ec2-user/repos/AISync/aisync.pl line 105
+
+Everything up-to-date at /home/ec2-user/repos/AISync/aisync.pl line 110.
+To git@github.com:striverconniver/AlmostIsland.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:striverconniver/AlmostIsland.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details. at /home/ec2-user/repos/AISync/aisync.pl line 111.
+Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/Log/Minimal.pm line 195.
+2016-09-14T15:34:33 [DEBUG] [/sync] Refresh Status:  at /home/ec2-user/repos/AISync/aisync.pl line 112
+
+127.0.0.1 - - [14/Sep/2016:15:34:34 +0200] "POST /sync HTTP/1.0" 200 1 "-" "GitHub-Hookshot/a5ffa81"
+2016-09-14T16:31:56 [DEBUG] [/sync] Payload was: $VAR1 = {
+          'repository' => {
+                            'open_issues' => 0,
+                            'stargazers' => 0,
+                            'forks_count' => 0,
+                            'notifications_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/notifications{?since,all,participating}',
+                            'events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/events',
+                            'contents_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contents/{+path}',
+                            'labels_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/labels{/name}',
+                            'has_wiki' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                            'html_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'has_pages' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+                            'archive_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/{archive_format}{/ref}',
+                            'watchers' => 0,
+                            'tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/tags',
+                            'stargazers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/stargazers',
+                            'open_issues_count' => 0,
+                            'stargazers_count' => 0,
+                            'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'pulls_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/pulls{/number}',
+                            'full_name' => 'Bhat-Gurunandan/AlmostIsland',
+                            'statuses_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/statuses/{sha}',
+                            'blobs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/blobs{/sha}',
+                            'private' => $VAR1->{'repository'}{'has_wiki'},
+                            'subscription_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscription',
+                            'branches_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/branches{/branch}',
+                            'comments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/comments{/number}',
+                            'has_issues' => $VAR1->{'repository'}{'has_pages'},
+                            'pushed_at' => 1473863516,
+                            'description' => 'AlmostIsland online literature journal website',
+                            'master_branch' => 'master',
+                            'git_refs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/refs{/sha}',
+                            'commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/commits{/sha}',
+                            'issue_events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/events{/number}',
+                            'ssh_url' => 'git@github.com:Bhat-Gurunandan/AlmostIsland.git',
+                            'svn_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'downloads_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/downloads',
+                            'hooks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/hooks',
+                            'issues_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues{/number}',
+                            'milestones_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/milestones{/number}',
+                            'git_url' => 'git://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'compare_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/compare/{base}...{head}',
+                            'subscribers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscribers',
+                            'teams_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/teams',
+                            'git_tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/tags{/sha}',
+                            'created_at' => 1463168566,
+                            'keys_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/keys{/key_id}',
+                            'forks' => 0,
+                            'watchers_count' => 0,
+                            'issue_comment_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/comments{/number}',
+                            'clone_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'id' => 58767964,
+                            'default_branch' => 'master',
+                            'name' => 'AlmostIsland',
+                            'owner' => {
+                                         'email' => 'bhat.gurunandan@gmail.com',
+                                         'name' => 'Bhat-Gurunandan'
+                                       },
+                            'deployments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/deployments',
+                            'fork' => $VAR1->{'repository'}{'has_wiki'},
+                            'homepage' => undef,
+                            'merges_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/merges',
+                            'assignees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/assignees{/user}',
+                            'language' => 'HTML',
+                            'has_downloads' => $VAR1->{'repository'}{'has_wiki'},
+                            'size' => 60552,
+                            'collaborators_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/collaborators{/collaborator}',
+                            'languages_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/languages',
+                            'contributors_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contributors',
+                            'releases_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/releases{/id}',
+                            'mirror_url' => undef,
+                            'trees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/trees{/sha}',
+                            'git_commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/commits{/sha}',
+                            'updated_at' => '2016-05-13T19:42:48Z',
+                            'forks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/forks'
+                          },
+          'before' => '804f5b0039e2fe39365aa58f6c84caba4739d31a',
+          'base_ref' => undef,
+          'after' => 'a94cf3849b5a012a4436a88138b0e73da934b6d0',
+          'sender' => {
+                        'gravatar_id' => '',
+                        'starred_url' => 'https://api.github.com/users/rhymebawd/starred{/owner}{/repo}',
+                        'subscriptions_url' => 'https://api.github.com/users/rhymebawd/subscriptions',
+                        'html_url' => 'https://github.com/rhymebawd',
+                        'type' => 'User',
+                        'id' => 15793855,
+                        'gists_url' => 'https://api.github.com/users/rhymebawd/gists{/gist_id}',
+                        'followers_url' => 'https://api.github.com/users/rhymebawd/followers',
+                        'organizations_url' => 'https://api.github.com/users/rhymebawd/orgs',
+                        'url' => 'https://api.github.com/users/rhymebawd',
+                        'login' => 'rhymebawd',
+                        'following_url' => 'https://api.github.com/users/rhymebawd/following{/other_user}',
+                        'repos_url' => 'https://api.github.com/users/rhymebawd/repos',
+                        'events_url' => 'https://api.github.com/users/rhymebawd/events{/privacy}',
+                        'avatar_url' => 'https://avatars.githubusercontent.com/u/15793855?v=3',
+                        'received_events_url' => 'https://api.github.com/users/rhymebawd/received_events',
+                        'site_admin' => $VAR1->{'repository'}{'has_pages'}
+                      },
+          'ref' => 'refs/heads/master',
+          'head_commit' => {
+                             'timestamp' => '2016-09-14T20:00:56+05:30',
+                             'committer' => {
+                                              'username' => 'rhymebawd',
+                                              'email' => 'rhymebawd@gmail.com',
+                                              'name' => 'rhymebawd'
+                                            },
+                             'added' => [],
+                             'removed' => [],
+                             'id' => 'a94cf3849b5a012a4436a88138b0e73da934b6d0',
+                             'tree_id' => '5240d89f6878167fc0e5ec4b90787010b015625c',
+                             'message' => 'dhoomil changed in "site"',
+                             'author' => {
+                                           'name' => 'rhymebawd',
+                                           'email' => 'rhymebawd@gmail.com',
+                                           'username' => 'rhymebawd'
+                                         },
+                             'distinct' => $VAR1->{'repository'}{'has_wiki'},
+                             'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/a94cf3849b5a012a4436a88138b0e73da934b6d0',
+                             'modified' => [
+                                             'site/monsoon_2015/poetry/page/five_poems.html'
+                                           ]
+                           },
+          'pusher' => {
+                        'email' => 'rhymebawd@gmail.com',
+                        'name' => 'rhymebawd'
+                      },
+          'commits' => [
+                         {
+                           'message' => 'dhoomil changed in "site"',
+                           'author' => {
+                                         'name' => 'rhymebawd',
+                                         'email' => 'rhymebawd@gmail.com',
+                                         'username' => 'rhymebawd'
+                                       },
+                           'distinct' => $VAR1->{'repository'}{'has_wiki'},
+                           'modified' => [
+                                           'site/monsoon_2015/poetry/page/five_poems.html'
+                                         ],
+                           'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/a94cf3849b5a012a4436a88138b0e73da934b6d0',
+                           'committer' => {
+                                            'username' => 'rhymebawd',
+                                            'email' => 'rhymebawd@gmail.com',
+                                            'name' => 'rhymebawd'
+                                          },
+                           'timestamp' => '2016-09-14T20:00:56+05:30',
+                           'added' => [],
+                           'removed' => [],
+                           'id' => 'a94cf3849b5a012a4436a88138b0e73da934b6d0',
+                           'tree_id' => '5240d89f6878167fc0e5ec4b90787010b015625c'
+                         }
+                       ],
+          'deleted' => $VAR1->{'repository'}{'has_pages'},
+          'compare' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/compare/804f5b0039e2...a94cf3849b5a',
+          'created' => $VAR1->{'repository'}{'has_pages'},
+          'forced' => $VAR1->{'repository'}{'has_pages'}
+        };
+ at /home/ec2-user/repos/AISync/aisync.pl line 77
+
+2016-09-14T16:31:56 [DEBUG] [/sync] Validation: sha1=a7b3d71a1dbd2b9729c0174ee2bbc8417d2f0974|sha1=a7b3d71a1dbd2b9729c0174ee2bbc8417d2f0974 Matched: Yes at /home/ec2-user/repos/AISync/aisync.pl line 83
+
+2016-09-14T16:31:56 [DEBUG] [/sync] Head Commit on Local|Remote is: 804f5b0039e2fe39365aa58f6c84caba4739d31a|a94cf3849b5a012a4436a88138b0e73da934b6d0 at /home/ec2-user/repos/AISync/aisync.pl line 94
+
+From github.com:Bhat-Gurunandan/AlmostIsland
+ * branch            master     -> FETCH_HEAD
+   804f5b0..a94cf38  master     -> origin/master at /home/ec2-user/repos/AISync/aisync.pl line 100.
+Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/Log/Minimal.pm line 195.
+2016-09-14T16:31:57 [DEBUG] [/sync] Pull Status:  at /home/ec2-user/repos/AISync/aisync.pl line 101
+
+Cannot open /home/ec2-user/repos/AlmostIsland/site/spring_1950/index.html: No such file or directory
+ at /home/ec2-user/repos/AICode/bin/../lib/AIWeb/Command/Test.pm line 315.
+	AIWeb::Command::Test::_build_index(ARRAY(0x402e7b8)) called at /home/ec2-user/repos/AICode/bin/../lib/AIWeb/Command/Test.pm line 94
+	AIWeb::Command::Test::execute(AIWeb::Command::Test=HASH(0x40d8608), Getopt::Long::Descriptive::Opts::__OPT__::2=HASH(0x4223e50), ARRAY(0x271df08)) called at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/App/Cmd.pm line 468
+	App::Cmd::execute_command(AIWeb=HASH(0x3443c38), AIWeb::Command::Test=HASH(0x40d8608), Getopt::Long::Descriptive::Opts::__OPT__::2=HASH(0x4223e50)) called at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/App/Cmd.pm line 321
+	App::Cmd::run("AIWeb") called at /home/ec2-user/repos/AICode/bin/aiweb.pl line 7
+2016-09-14T16:31:57 [DEBUG] [/sync] Build Status: $VAR1 = [
+          512
+        ];
+ at /home/ec2-user/repos/AISync/aisync.pl line 105
+
+Everything up-to-date at /home/ec2-user/repos/AISync/aisync.pl line 110.
+To git@github.com:striverconniver/AlmostIsland.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:striverconniver/AlmostIsland.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details. at /home/ec2-user/repos/AISync/aisync.pl line 111.
+Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/Log/Minimal.pm line 195.
+2016-09-14T16:31:58 [DEBUG] [/sync] Refresh Status:  at /home/ec2-user/repos/AISync/aisync.pl line 112
+
+127.0.0.1 - - [14/Sep/2016:16:31:59 +0200] "POST /sync HTTP/1.0" 200 1 "-" "GitHub-Hookshot/a5ffa81"
+2016-09-14T23:23:59 [DEBUG] [/sync] Payload was: $VAR1 = {
+          'deleted' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+          'compare' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/compare/a94cf3849b5a...d0ba413b1e23',
+          'created' => $VAR1->{'deleted'},
+          'forced' => $VAR1->{'deleted'},
+          'head_commit' => {
+                             'distinct' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                             'modified' => [],
+                             'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/d0ba413b1e23e85d199e7f0b96d47d32a1e9b394',
+                             'message' => 'Deleted issues older than the latest from the source folder',
+                             'author' => {
+                                           'name' => 'Gurunandan Bhat',
+                                           'email' => 'gbhat@pobox.com',
+                                           'username' => 'Bhat-Gurunandan'
+                                         },
+                             'removed' => [
+                                            'source/monsoon_2009/poetry/page/five_poems.html',
+                                            'source/monsoon_2015/poetry/page/five_poems.html'
+                                          ],
+                             'tree_id' => '0a6ff02790c19e6363d3fa4face1fcee4941650e',
+                             'id' => 'd0ba413b1e23e85d199e7f0b96d47d32a1e9b394',
+                             'committer' => {
+                                              'email' => 'gbhat@pobox.com',
+                                              'username' => 'Bhat-Gurunandan',
+                                              'name' => 'Gurunandan Bhat'
+                                            },
+                             'timestamp' => '2016-09-14T23:23:45+02:00',
+                             'added' => []
+                           },
+          'ref' => 'refs/heads/master',
+          'pusher' => {
+                        'email' => 'bhat.gurunandan@gmail.com',
+                        'name' => 'Bhat-Gurunandan'
+                      },
+          'commits' => [
+                         {
+                           'committer' => {
+                                            'name' => 'Gurunandan Bhat',
+                                            'username' => 'Bhat-Gurunandan',
+                                            'email' => 'gbhat@pobox.com'
+                                          },
+                           'timestamp' => '2016-09-14T23:23:45+02:00',
+                           'added' => [],
+                           'removed' => [
+                                          'source/monsoon_2009/poetry/page/five_poems.html',
+                                          'source/monsoon_2015/poetry/page/five_poems.html'
+                                        ],
+                           'id' => 'd0ba413b1e23e85d199e7f0b96d47d32a1e9b394',
+                           'tree_id' => '0a6ff02790c19e6363d3fa4face1fcee4941650e',
+                           'message' => 'Deleted issues older than the latest from the source folder',
+                           'author' => {
+                                         'name' => 'Gurunandan Bhat',
+                                         'email' => 'gbhat@pobox.com',
+                                         'username' => 'Bhat-Gurunandan'
+                                       },
+                           'distinct' => $VAR1->{'head_commit'}{'distinct'},
+                           'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/d0ba413b1e23e85d199e7f0b96d47d32a1e9b394',
+                           'modified' => []
+                         }
+                       ],
+          'after' => 'd0ba413b1e23e85d199e7f0b96d47d32a1e9b394',
+          'sender' => {
+                        'url' => 'https://api.github.com/users/Bhat-Gurunandan',
+                        'organizations_url' => 'https://api.github.com/users/Bhat-Gurunandan/orgs',
+                        'followers_url' => 'https://api.github.com/users/Bhat-Gurunandan/followers',
+                        'login' => 'Bhat-Gurunandan',
+                        'following_url' => 'https://api.github.com/users/Bhat-Gurunandan/following{/other_user}',
+                        'received_events_url' => 'https://api.github.com/users/Bhat-Gurunandan/received_events',
+                        'avatar_url' => 'https://avatars.githubusercontent.com/u/420270?v=3',
+                        'events_url' => 'https://api.github.com/users/Bhat-Gurunandan/events{/privacy}',
+                        'repos_url' => 'https://api.github.com/users/Bhat-Gurunandan/repos',
+                        'site_admin' => $VAR1->{'deleted'},
+                        'gravatar_id' => '',
+                        'html_url' => 'https://github.com/Bhat-Gurunandan',
+                        'subscriptions_url' => 'https://api.github.com/users/Bhat-Gurunandan/subscriptions',
+                        'starred_url' => 'https://api.github.com/users/Bhat-Gurunandan/starred{/owner}{/repo}',
+                        'id' => 420270,
+                        'type' => 'User',
+                        'gists_url' => 'https://api.github.com/users/Bhat-Gurunandan/gists{/gist_id}'
+                      },
+          'repository' => {
+                            'issues_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues{/number}',
+                            'compare_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/compare/{base}...{head}',
+                            'milestones_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/milestones{/number}',
+                            'git_url' => 'git://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'svn_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'hooks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/hooks',
+                            'downloads_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/downloads',
+                            'ssh_url' => 'git@github.com:Bhat-Gurunandan/AlmostIsland.git',
+                            'commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/commits{/sha}',
+                            'git_refs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/refs{/sha}',
+                            'issue_events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/events{/number}',
+                            'clone_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'default_branch' => 'master',
+                            'id' => 58767964,
+                            'watchers_count' => 0,
+                            'forks' => 0,
+                            'issue_comment_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/comments{/number}',
+                            'created_at' => 1463168566,
+                            'keys_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/keys{/key_id}',
+                            'subscribers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscribers',
+                            'teams_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/teams',
+                            'git_tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/tags{/sha}',
+                            'language' => 'HTML',
+                            'merges_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/merges',
+                            'assignees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/assignees{/user}',
+                            'fork' => $VAR1->{'head_commit'}{'distinct'},
+                            'homepage' => undef,
+                            'owner' => {
+                                         'email' => 'bhat.gurunandan@gmail.com',
+                                         'name' => 'Bhat-Gurunandan'
+                                       },
+                            'name' => 'AlmostIsland',
+                            'deployments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/deployments',
+                            'updated_at' => '2016-05-13T19:42:48Z',
+                            'forks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/forks',
+                            'git_commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/commits{/sha}',
+                            'contributors_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contributors',
+                            'languages_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/languages',
+                            'mirror_url' => undef,
+                            'trees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/trees{/sha}',
+                            'releases_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/releases{/id}',
+                            'has_downloads' => $VAR1->{'head_commit'}{'distinct'},
+                            'size' => 60553,
+                            'collaborators_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/collaborators{/collaborator}',
+                            'events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/events',
+                            'labels_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/labels{/name}',
+                            'contents_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contents/{+path}',
+                            'stargazers' => 0,
+                            'notifications_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/notifications{?since,all,participating}',
+                            'forks_count' => 0,
+                            'open_issues' => 0,
+                            'open_issues_count' => 0,
+                            'stargazers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/stargazers',
+                            'archive_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/{archive_format}{/ref}',
+                            'tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/tags',
+                            'watchers' => 0,
+                            'has_pages' => $VAR1->{'deleted'},
+                            'html_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'has_wiki' => $VAR1->{'head_commit'}{'distinct'},
+                            'subscription_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscription',
+                            'branches_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/branches{/branch}',
+                            'statuses_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/statuses/{sha}',
+                            'blobs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/blobs{/sha}',
+                            'pulls_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/pulls{/number}',
+                            'full_name' => 'Bhat-Gurunandan/AlmostIsland',
+                            'private' => $VAR1->{'head_commit'}{'distinct'},
+                            'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'stargazers_count' => 0,
+                            'master_branch' => 'master',
+                            'pushed_at' => 1473888238,
+                            'description' => 'AlmostIsland online literature journal website',
+                            'has_issues' => $VAR1->{'deleted'},
+                            'comments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/comments{/number}'
+                          },
+          'before' => 'a94cf3849b5a012a4436a88138b0e73da934b6d0',
+          'base_ref' => undef
+        };
+ at /home/ec2-user/repos/AISync/aisync.pl line 77
+
+2016-09-14T23:23:59 [DEBUG] [/sync] Validation: sha1=983be95ab4aa4f202422bffe1850d4d0dda72a90|sha1=983be95ab4aa4f202422bffe1850d4d0dda72a90 Matched: Yes at /home/ec2-user/repos/AISync/aisync.pl line 83
+
+2016-09-14T23:23:59 [DEBUG] [/sync] Head Commit on Local|Remote is: a94cf3849b5a012a4436a88138b0e73da934b6d0|d0ba413b1e23e85d199e7f0b96d47d32a1e9b394 at /home/ec2-user/repos/AISync/aisync.pl line 94
+
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists. at /home/ec2-user/repos/AISync/aisync.pl line 100.
+Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/Log/Minimal.pm line 195.
+2016-09-14T23:23:59 [DEBUG] [/sync] Pull Status:  at /home/ec2-user/repos/AISync/aisync.pl line 101
+
+Cannot open /home/ec2-user/repos/AlmostIsland/site/spring_1950/index.html: No such file or directory
+ at /home/ec2-user/repos/AICode/bin/../lib/AIWeb/Command/Test.pm line 315.
+	AIWeb::Command::Test::_build_index(ARRAY(0x2d35228)) called at /home/ec2-user/repos/AICode/bin/../lib/AIWeb/Command/Test.pm line 94
+	AIWeb::Command::Test::execute(AIWeb::Command::Test=HASH(0x2ddf0f8), Getopt::Long::Descriptive::Opts::__OPT__::2=HASH(0x26c5dd0), ARRAY(0x1404ea8)) called at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/App/Cmd.pm line 468
+	App::Cmd::execute_command(AIWeb=HASH(0x1c281c0), AIWeb::Command::Test=HASH(0x2ddf0f8), Getopt::Long::Descriptive::Opts::__OPT__::2=HASH(0x26c5dd0)) called at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/App/Cmd.pm line 321
+	App::Cmd::run("AIWeb") called at /home/ec2-user/repos/AICode/bin/aiweb.pl line 7
+2016-09-14T23:24:00 [DEBUG] [/sync] Build Status: $VAR1 = [
+          512
+        ];
+ at /home/ec2-user/repos/AISync/aisync.pl line 105
+
+127.0.0.1 - - [14/Sep/2016:23:24:00 +0200] "POST /sync HTTP/1.0" 200 1 "-" "GitHub-Hookshot/a5ffa81"
+2016-09-14T23:25:02 [DEBUG] [/sync] Payload was: $VAR1 = {
+          'base_ref' => undef,
+          'repository' => {
+                            'has_pages' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+                            'html_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'has_wiki' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                            'archive_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/{archive_format}{/ref}',
+                            'tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/tags',
+                            'watchers' => 0,
+                            'stargazers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/stargazers',
+                            'open_issues_count' => 0,
+                            'open_issues' => 0,
+                            'stargazers' => 0,
+                            'forks_count' => 0,
+                            'notifications_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/notifications{?since,all,participating}',
+                            'events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/events',
+                            'labels_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/labels{/name}',
+                            'contents_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contents/{+path}',
+                            'comments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/comments{/number}',
+                            'has_issues' => $VAR1->{'repository'}{'has_pages'},
+                            'pushed_at' => 1473888302,
+                            'description' => 'AlmostIsland online literature journal website',
+                            'master_branch' => 'master',
+                            'stargazers_count' => 0,
+                            'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'blobs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/blobs{/sha}',
+                            'statuses_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/statuses/{sha}',
+                            'pulls_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/pulls{/number}',
+                            'full_name' => 'Bhat-Gurunandan/AlmostIsland',
+                            'private' => $VAR1->{'repository'}{'has_wiki'},
+                            'subscription_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscription',
+                            'branches_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/branches{/branch}',
+                            'subscribers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscribers',
+                            'teams_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/teams',
+                            'git_tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/tags{/sha}',
+                            'created_at' => 1463168566,
+                            'keys_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/keys{/key_id}',
+                            'watchers_count' => 0,
+                            'forks' => 0,
+                            'issue_comment_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/comments{/number}',
+                            'clone_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'id' => 58767964,
+                            'default_branch' => 'master',
+                            'commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/commits{/sha}',
+                            'git_refs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/refs{/sha}',
+                            'issue_events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/events{/number}',
+                            'ssh_url' => 'git@github.com:Bhat-Gurunandan/AlmostIsland.git',
+                            'svn_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'hooks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/hooks',
+                            'downloads_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/downloads',
+                            'issues_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues{/number}',
+                            'compare_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/compare/{base}...{head}',
+                            'git_url' => 'git://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'milestones_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/milestones{/number}',
+                            'size' => 60553,
+                            'has_downloads' => $VAR1->{'repository'}{'has_wiki'},
+                            'collaborators_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/collaborators{/collaborator}',
+                            'contributors_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contributors',
+                            'languages_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/languages',
+                            'mirror_url' => undef,
+                            'releases_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/releases{/id}',
+                            'trees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/trees{/sha}',
+                            'git_commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/commits{/sha}',
+                            'updated_at' => '2016-05-13T19:42:48Z',
+                            'forks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/forks',
+                            'owner' => {
+                                         'name' => 'Bhat-Gurunandan',
+                                         'email' => 'bhat.gurunandan@gmail.com'
+                                       },
+                            'name' => 'AlmostIsland',
+                            'deployments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/deployments',
+                            'fork' => $VAR1->{'repository'}{'has_wiki'},
+                            'homepage' => undef,
+                            'language' => 'HTML',
+                            'assignees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/assignees{/user}',
+                            'merges_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/merges'
+                          },
+          'before' => 'd0ba413b1e23e85d199e7f0b96d47d32a1e9b394',
+          'after' => 'fb9fb2d9f89b5748d10f71bfb16406c5c32e8012',
+          'sender' => {
+                        'gists_url' => 'https://api.github.com/users/Bhat-Gurunandan/gists{/gist_id}',
+                        'type' => 'User',
+                        'id' => 420270,
+                        'starred_url' => 'https://api.github.com/users/Bhat-Gurunandan/starred{/owner}{/repo}',
+                        'html_url' => 'https://github.com/Bhat-Gurunandan',
+                        'subscriptions_url' => 'https://api.github.com/users/Bhat-Gurunandan/subscriptions',
+                        'gravatar_id' => '',
+                        'site_admin' => $VAR1->{'repository'}{'has_pages'},
+                        'repos_url' => 'https://api.github.com/users/Bhat-Gurunandan/repos',
+                        'events_url' => 'https://api.github.com/users/Bhat-Gurunandan/events{/privacy}',
+                        'received_events_url' => 'https://api.github.com/users/Bhat-Gurunandan/received_events',
+                        'avatar_url' => 'https://avatars.githubusercontent.com/u/420270?v=3',
+                        'login' => 'Bhat-Gurunandan',
+                        'following_url' => 'https://api.github.com/users/Bhat-Gurunandan/following{/other_user}',
+                        'followers_url' => 'https://api.github.com/users/Bhat-Gurunandan/followers',
+                        'url' => 'https://api.github.com/users/Bhat-Gurunandan',
+                        'organizations_url' => 'https://api.github.com/users/Bhat-Gurunandan/orgs'
+                      },
+          'commits' => [
+                         {
+                           'committer' => {
+                                            'email' => 'gbhat@pobox.com',
+                                            'username' => 'Bhat-Gurunandan',
+                                            'name' => 'Gurunandan Bhat'
+                                          },
+                           'timestamp' => '2016-09-14T23:24:46+02:00',
+                           'added' => [],
+                           'removed' => [
+                                          'source/spring_1950/contributors.html',
+                                          'source/spring_1950/contributors/arvind_krishna_mehrotra.html',
+                                          'source/spring_1950/contributors/bohdan_ihor_antonych.html',
+                                          'source/spring_1950/contributors/irwin_allan_sealy.html',
+                                          'source/spring_1950/contributors/ishion_hutchinson.html',
+                                          'source/spring_1950/contributors/jeffrey_yang.html',
+                                          'source/spring_1950/contributors/lewis_hyde.html',
+                                          'source/spring_1950/contributors/magnus_william_olsson.html',
+                                          'source/spring_1950/contributors/mani_rao.html',
+                                          'source/spring_1950/contributors/ottilie_mulzet.html',
+                                          'source/spring_1950/contributors/sample_page.html',
+                                          'source/spring_1950/contributors/togara_muzanenhamo.html',
+                                          'source/spring_1950/contributors_2.html',
+                                          'source/spring_1950/contributors_3.html',
+                                          'source/spring_1950/contributors_4.html',
+                                          'source/spring_1950/contributors_5.html',
+                                          'source/spring_1950/editorial.html',
+                                          'source/spring_1950/editorial_2.html',
+                                          'source/spring_1950/editorial_3.html',
+                                          'source/spring_1950/images/1.jpg',
+                                          'source/spring_1950/images/10.jpg',
+                                          'source/spring_1950/images/2.jpg',
+                                          'source/spring_1950/images/3.jpg',
+                                          'source/spring_1950/images/4.jpg',
+                                          'source/spring_1950/images/5.jpg',
+                                          'source/spring_1950/images/6.jpg',
+                                          'source/spring_1950/images/7.jpg',
+                                          'source/spring_1950/images/8.jpg',
+                                          'source/spring_1950/images/9.jpg',
+                                          'source/spring_1950/images/ox_1.jpg',
+                                          'source/spring_1950/images/ox_10.jpg',
+                                          'source/spring_1950/images/ox_2.jpg',
+                                          'source/spring_1950/images/ox_3.jpg',
+                                          'source/spring_1950/images/ox_4.jpg',
+                                          'source/spring_1950/images/ox_5.jpg',
+                                          'source/spring_1950/images/ox_6.jpg',
+                                          'source/spring_1950/images/ox_7.jpg',
+                                          'source/spring_1950/images/ox_8.jpg',
+                                          'source/spring_1950/images/ox_9.jpg',
+                                          'source/spring_1950/index.html',
+                                          'source/spring_1950/pdf/a_collection_of_seasons.pdf',
+                                          'source/spring_1950/pdf/a_concert_from_mercury.pdf',
+                                          'source/spring_1950/pdf/an_outpost_of_progress.pdf',
+                                          'source/spring_1950/pdf/china_fragments.pdf',
+                                          'source/spring_1950/pdf/gumiguru.pdf',
+                                          'source/spring_1950/pdf/introduction_to_the_legend_of_mother_green_tara.pdf',
+                                          'source/spring_1950/pdf/other_places.pdf',
+                                          'source/spring_1950/pdf/oxherding.pdf',
+                                          'source/spring_1950/pdf/philological_time.pdf',
+                                          'source/spring_1950/pdf/the_legend_of_mother_green_tara.pdf',
+                                          'source/spring_1950/pdf/the_pond_in_the_lake.pdf',
+                                          'source/spring_1950/pdf/to_complete_the_incomplete.pdf',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_10.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_11.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_12.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_13.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_14.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_15.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_16.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_17.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_18.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_19.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_2.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_20.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_21.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_22.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_23.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_24.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_3.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_4.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_5.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_6.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_7.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_8.html',
+                                          'source/spring_1950/special_issue_the_past/a_collection_of_seasons_9.html',
+                                          'source/spring_1950/special_issue_the_past/a_concert_from_mercury.html',
+                                          'source/spring_1950/special_issue_the_past/an_outpost_of_progress.html',
+                                          'source/spring_1950/special_issue_the_past/an_outpost_of_progress_2.html',
+                                          'source/spring_1950/special_issue_the_past/an_outpost_of_progress_3.html',
+                                          'source/spring_1950/special_issue_the_past/an_outpost_of_progress_4.html',
+                                          'source/spring_1950/special_issue_the_past/an_outpost_of_progress_5.html',
+                                          'source/spring_1950/special_issue_the_past/an_outpost_of_progress_6.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_10.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_11.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_12.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_13.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_14.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_15.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_16.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_17.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_18.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_19.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_2.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_20.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_3.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_4.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_5.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_6.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_7.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_8.html',
+                                          'source/spring_1950/special_issue_the_past/china_fragments_9.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_10.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_11.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_12.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_13.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_2.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_3.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_4.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_5.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_6.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_7.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_8.html',
+                                          'source/spring_1950/special_issue_the_past/gumiguru_9.html',
+                                          'source/spring_1950/special_issue_the_past/introduction_to_the_legend_of_mother_green_tara.html',
+                                          'source/spring_1950/special_issue_the_past/introduction_to_the_legend_of_mother_green_tara_2.html',
+                                          'source/spring_1950/special_issue_the_past/introduction_to_the_legend_of_mother_green_tara_3.html',
+                                          'source/spring_1950/special_issue_the_past/introduction_to_the_legend_of_mother_green_tara_4.html',
+                                          'source/spring_1950/special_issue_the_past/other_places.html',
+                                          'source/spring_1950/special_issue_the_past/other_places_10.html',
+                                          'source/spring_1950/special_issue_the_past/other_places_11.html',
+                                          'source/spring_1950/special_issue_the_past/other_places_2.html',
+                                          'source/spring_1950/special_issue_the_past/other_places_3.html',
+                                          'source/spring_1950/special_issue_the_past/other_places_4.html',
+                                          'source/spring_1950/special_issue_the_past/other_places_5.html',
+                                          'source/spring_1950/special_issue_the_past/other_places_6.html',
+                                          'source/spring_1950/special_issue_the_past/other_places_7.html',
+                                          'source/spring_1950/special_issue_the_past/other_places_8.html',
+                                          'source/spring_1950/special_issue_the_past/other_places_9.html',
+                                          'source/spring_1950/special_issue_the_past/oxherding.html',
+                                          'source/spring_1950/special_issue_the_past/page/a_concert_from_mercury.html',
+                                          'source/spring_1950/special_issue_the_past/page/oxherding.html',
+                                          'source/spring_1950/special_issue_the_past/philological_time.html',
+                                          'source/spring_1950/special_issue_the_past/philological_time_2.html',
+                                          'source/spring_1950/special_issue_the_past/philological_time_3.html',
+                                          'source/spring_1950/special_issue_the_past/philological_time_4.html',
+                                          'source/spring_1950/special_issue_the_past/philological_time_5.html',
+                                          'source/spring_1950/special_issue_the_past/philological_time_6.html',
+                                          'source/spring_1950/special_issue_the_past/philological_time_7.html',
+                                          'source/spring_1950/special_issue_the_past/philological_time_8.html',
+                                          'source/spring_1950/special_issue_the_past/philological_time_9.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_10.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_11.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_12.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_13.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_14.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_15.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_16.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_17.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_18.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_19.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_2.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_20.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_3.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_4.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_5.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_6.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_7.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_8.html',
+                                          'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_9.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_10.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_11.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_12.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_13.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_14.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_15.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_16.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_17.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_18.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_19.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_2.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_20.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_21.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_22.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_23.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_24.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_3.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_4.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_5.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_6.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_7.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_8.html',
+                                          'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_9.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_10.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_11.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_12.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_13.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_14.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_15.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_16.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_17.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_18.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_19.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_2.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_20.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_3.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_4.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_5.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_6.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_7.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_8.html',
+                                          'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_9.html'
+                                        ],
+                           'tree_id' => '54c11622b2e5f256e3c4cdf07c86831f8014422d',
+                           'id' => 'fb9fb2d9f89b5748d10f71bfb16406c5c32e8012',
+                           'message' => 'Deleted test folder',
+                           'author' => {
+                                         'email' => 'gbhat@pobox.com',
+                                         'username' => 'Bhat-Gurunandan',
+                                         'name' => 'Gurunandan Bhat'
+                                       },
+                           'distinct' => $VAR1->{'repository'}{'has_wiki'},
+                           'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/fb9fb2d9f89b5748d10f71bfb16406c5c32e8012',
+                           'modified' => []
+                         }
+                       ],
+          'ref' => 'refs/heads/master',
+          'head_commit' => {
+                             'author' => {
+                                           'name' => 'Gurunandan Bhat',
+                                           'email' => 'gbhat@pobox.com',
+                                           'username' => 'Bhat-Gurunandan'
+                                         },
+                             'message' => 'Deleted test folder',
+                             'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/fb9fb2d9f89b5748d10f71bfb16406c5c32e8012',
+                             'modified' => [],
+                             'distinct' => $VAR1->{'repository'}{'has_wiki'},
+                             'added' => [],
+                             'committer' => {
+                                              'name' => 'Gurunandan Bhat',
+                                              'username' => 'Bhat-Gurunandan',
+                                              'email' => 'gbhat@pobox.com'
+                                            },
+                             'timestamp' => '2016-09-14T23:24:46+02:00',
+                             'tree_id' => '54c11622b2e5f256e3c4cdf07c86831f8014422d',
+                             'id' => 'fb9fb2d9f89b5748d10f71bfb16406c5c32e8012',
+                             'removed' => [
+                                            'source/spring_1950/contributors.html',
+                                            'source/spring_1950/contributors/arvind_krishna_mehrotra.html',
+                                            'source/spring_1950/contributors/bohdan_ihor_antonych.html',
+                                            'source/spring_1950/contributors/irwin_allan_sealy.html',
+                                            'source/spring_1950/contributors/ishion_hutchinson.html',
+                                            'source/spring_1950/contributors/jeffrey_yang.html',
+                                            'source/spring_1950/contributors/lewis_hyde.html',
+                                            'source/spring_1950/contributors/magnus_william_olsson.html',
+                                            'source/spring_1950/contributors/mani_rao.html',
+                                            'source/spring_1950/contributors/ottilie_mulzet.html',
+                                            'source/spring_1950/contributors/sample_page.html',
+                                            'source/spring_1950/contributors/togara_muzanenhamo.html',
+                                            'source/spring_1950/contributors_2.html',
+                                            'source/spring_1950/contributors_3.html',
+                                            'source/spring_1950/contributors_4.html',
+                                            'source/spring_1950/contributors_5.html',
+                                            'source/spring_1950/editorial.html',
+                                            'source/spring_1950/editorial_2.html',
+                                            'source/spring_1950/editorial_3.html',
+                                            'source/spring_1950/images/1.jpg',
+                                            'source/spring_1950/images/10.jpg',
+                                            'source/spring_1950/images/2.jpg',
+                                            'source/spring_1950/images/3.jpg',
+                                            'source/spring_1950/images/4.jpg',
+                                            'source/spring_1950/images/5.jpg',
+                                            'source/spring_1950/images/6.jpg',
+                                            'source/spring_1950/images/7.jpg',
+                                            'source/spring_1950/images/8.jpg',
+                                            'source/spring_1950/images/9.jpg',
+                                            'source/spring_1950/images/ox_1.jpg',
+                                            'source/spring_1950/images/ox_10.jpg',
+                                            'source/spring_1950/images/ox_2.jpg',
+                                            'source/spring_1950/images/ox_3.jpg',
+                                            'source/spring_1950/images/ox_4.jpg',
+                                            'source/spring_1950/images/ox_5.jpg',
+                                            'source/spring_1950/images/ox_6.jpg',
+                                            'source/spring_1950/images/ox_7.jpg',
+                                            'source/spring_1950/images/ox_8.jpg',
+                                            'source/spring_1950/images/ox_9.jpg',
+                                            'source/spring_1950/index.html',
+                                            'source/spring_1950/pdf/a_collection_of_seasons.pdf',
+                                            'source/spring_1950/pdf/a_concert_from_mercury.pdf',
+                                            'source/spring_1950/pdf/an_outpost_of_progress.pdf',
+                                            'source/spring_1950/pdf/china_fragments.pdf',
+                                            'source/spring_1950/pdf/gumiguru.pdf',
+                                            'source/spring_1950/pdf/introduction_to_the_legend_of_mother_green_tara.pdf',
+                                            'source/spring_1950/pdf/other_places.pdf',
+                                            'source/spring_1950/pdf/oxherding.pdf',
+                                            'source/spring_1950/pdf/philological_time.pdf',
+                                            'source/spring_1950/pdf/the_legend_of_mother_green_tara.pdf',
+                                            'source/spring_1950/pdf/the_pond_in_the_lake.pdf',
+                                            'source/spring_1950/pdf/to_complete_the_incomplete.pdf',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_10.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_11.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_12.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_13.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_14.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_15.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_16.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_17.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_18.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_19.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_2.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_20.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_21.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_22.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_23.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_24.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_3.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_4.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_5.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_6.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_7.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_8.html',
+                                            'source/spring_1950/special_issue_the_past/a_collection_of_seasons_9.html',
+                                            'source/spring_1950/special_issue_the_past/a_concert_from_mercury.html',
+                                            'source/spring_1950/special_issue_the_past/an_outpost_of_progress.html',
+                                            'source/spring_1950/special_issue_the_past/an_outpost_of_progress_2.html',
+                                            'source/spring_1950/special_issue_the_past/an_outpost_of_progress_3.html',
+                                            'source/spring_1950/special_issue_the_past/an_outpost_of_progress_4.html',
+                                            'source/spring_1950/special_issue_the_past/an_outpost_of_progress_5.html',
+                                            'source/spring_1950/special_issue_the_past/an_outpost_of_progress_6.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_10.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_11.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_12.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_13.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_14.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_15.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_16.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_17.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_18.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_19.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_2.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_20.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_3.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_4.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_5.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_6.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_7.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_8.html',
+                                            'source/spring_1950/special_issue_the_past/china_fragments_9.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_10.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_11.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_12.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_13.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_2.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_3.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_4.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_5.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_6.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_7.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_8.html',
+                                            'source/spring_1950/special_issue_the_past/gumiguru_9.html',
+                                            'source/spring_1950/special_issue_the_past/introduction_to_the_legend_of_mother_green_tara.html',
+                                            'source/spring_1950/special_issue_the_past/introduction_to_the_legend_of_mother_green_tara_2.html',
+                                            'source/spring_1950/special_issue_the_past/introduction_to_the_legend_of_mother_green_tara_3.html',
+                                            'source/spring_1950/special_issue_the_past/introduction_to_the_legend_of_mother_green_tara_4.html',
+                                            'source/spring_1950/special_issue_the_past/other_places.html',
+                                            'source/spring_1950/special_issue_the_past/other_places_10.html',
+                                            'source/spring_1950/special_issue_the_past/other_places_11.html',
+                                            'source/spring_1950/special_issue_the_past/other_places_2.html',
+                                            'source/spring_1950/special_issue_the_past/other_places_3.html',
+                                            'source/spring_1950/special_issue_the_past/other_places_4.html',
+                                            'source/spring_1950/special_issue_the_past/other_places_5.html',
+                                            'source/spring_1950/special_issue_the_past/other_places_6.html',
+                                            'source/spring_1950/special_issue_the_past/other_places_7.html',
+                                            'source/spring_1950/special_issue_the_past/other_places_8.html',
+                                            'source/spring_1950/special_issue_the_past/other_places_9.html',
+                                            'source/spring_1950/special_issue_the_past/oxherding.html',
+                                            'source/spring_1950/special_issue_the_past/page/a_concert_from_mercury.html',
+                                            'source/spring_1950/special_issue_the_past/page/oxherding.html',
+                                            'source/spring_1950/special_issue_the_past/philological_time.html',
+                                            'source/spring_1950/special_issue_the_past/philological_time_2.html',
+                                            'source/spring_1950/special_issue_the_past/philological_time_3.html',
+                                            'source/spring_1950/special_issue_the_past/philological_time_4.html',
+                                            'source/spring_1950/special_issue_the_past/philological_time_5.html',
+                                            'source/spring_1950/special_issue_the_past/philological_time_6.html',
+                                            'source/spring_1950/special_issue_the_past/philological_time_7.html',
+                                            'source/spring_1950/special_issue_the_past/philological_time_8.html',
+                                            'source/spring_1950/special_issue_the_past/philological_time_9.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_10.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_11.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_12.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_13.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_14.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_15.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_16.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_17.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_18.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_19.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_2.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_20.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_3.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_4.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_5.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_6.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_7.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_8.html',
+                                            'source/spring_1950/special_issue_the_past/the_legend_of_mother_green_tara_9.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_10.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_11.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_12.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_13.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_14.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_15.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_16.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_17.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_18.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_19.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_2.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_20.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_21.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_22.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_23.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_24.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_3.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_4.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_5.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_6.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_7.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_8.html',
+                                            'source/spring_1950/special_issue_the_past/the_pond_in_the_lake_9.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_10.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_11.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_12.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_13.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_14.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_15.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_16.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_17.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_18.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_19.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_2.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_20.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_3.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_4.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_5.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_6.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_7.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_8.html',
+                                            'source/spring_1950/special_issue_the_past/to_complete_the_incomplete_9.html'
+                                          ]
+                           },
+          'pusher' => {
+                        'name' => 'Bhat-Gurunandan',
+                        'email' => 'bhat.gurunandan@gmail.com'
+                      },
+          'created' => $VAR1->{'repository'}{'has_pages'},
+          'forced' => $VAR1->{'repository'}{'has_pages'},
+          'deleted' => $VAR1->{'repository'}{'has_pages'},
+          'compare' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/compare/d0ba413b1e23...fb9fb2d9f89b'
+        };
+ at /home/ec2-user/repos/AISync/aisync.pl line 77
+
+2016-09-14T23:25:02 [DEBUG] [/sync] Validation: sha1=89cbc0dc09330dce104d0cf8a443603d4189a043|sha1=89cbc0dc09330dce104d0cf8a443603d4189a043 Matched: Yes at /home/ec2-user/repos/AISync/aisync.pl line 83
+
+2016-09-14T23:25:02 [DEBUG] [/sync] Head Commit on Local|Remote is: a94cf3849b5a012a4436a88138b0e73da934b6d0|fb9fb2d9f89b5748d10f71bfb16406c5c32e8012 at /home/ec2-user/repos/AISync/aisync.pl line 94
+
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists. at /home/ec2-user/repos/AISync/aisync.pl line 100.
+Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/Log/Minimal.pm line 195.
+2016-09-14T23:25:04 [DEBUG] [/sync] Pull Status:  at /home/ec2-user/repos/AISync/aisync.pl line 101
+
+Cannot open /home/ec2-user/repos/AlmostIsland/site/spring_1950/index.html: No such file or directory
+ at /home/ec2-user/repos/AICode/bin/../lib/AIWeb/Command/Test.pm line 315.
+	AIWeb::Command::Test::_build_index(ARRAY(0x33e5798)) called at /home/ec2-user/repos/AICode/bin/../lib/AIWeb/Command/Test.pm line 94
+	AIWeb::Command::Test::execute(AIWeb::Command::Test=HASH(0x348c1e0), Getopt::Long::Descriptive::Opts::__OPT__::2=HASH(0x35c4b00), ARRAY(0x1aaff08)) called at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/App/Cmd.pm line 468
+	App::Cmd::execute_command(AIWeb=HASH(0x20d93a8), AIWeb::Command::Test=HASH(0x348c1e0), Getopt::Long::Descriptive::Opts::__OPT__::2=HASH(0x35c4b00)) called at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/App/Cmd.pm line 321
+	App::Cmd::run("AIWeb") called at /home/ec2-user/repos/AICode/bin/aiweb.pl line 7
+2016-09-14T23:25:04 [DEBUG] [/sync] Build Status: $VAR1 = [
+          512
+        ];
+ at /home/ec2-user/repos/AISync/aisync.pl line 105
+
+127.0.0.1 - - [14/Sep/2016:23:25:06 +0200] "POST /sync HTTP/1.0" 200 1 "-" "GitHub-Hookshot/a5ffa81"
+2016-09-14T23:55:16 [DEBUG] [/sync] Payload was: $VAR1 = {
+          'after' => 'b0496f24fe18609456450162972358ece74d070f',
+          'sender' => {
+                        'following_url' => 'https://api.github.com/users/Bhat-Gurunandan/following{/other_user}',
+                        'login' => 'Bhat-Gurunandan',
+                        'url' => 'https://api.github.com/users/Bhat-Gurunandan',
+                        'organizations_url' => 'https://api.github.com/users/Bhat-Gurunandan/orgs',
+                        'followers_url' => 'https://api.github.com/users/Bhat-Gurunandan/followers',
+                        'site_admin' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+                        'received_events_url' => 'https://api.github.com/users/Bhat-Gurunandan/received_events',
+                        'avatar_url' => 'https://avatars.githubusercontent.com/u/420270?v=3',
+                        'repos_url' => 'https://api.github.com/users/Bhat-Gurunandan/repos',
+                        'events_url' => 'https://api.github.com/users/Bhat-Gurunandan/events{/privacy}',
+                        'html_url' => 'https://github.com/Bhat-Gurunandan',
+                        'subscriptions_url' => 'https://api.github.com/users/Bhat-Gurunandan/subscriptions',
+                        'starred_url' => 'https://api.github.com/users/Bhat-Gurunandan/starred{/owner}{/repo}',
+                        'gravatar_id' => '',
+                        'gists_url' => 'https://api.github.com/users/Bhat-Gurunandan/gists{/gist_id}',
+                        'id' => 420270,
+                        'type' => 'User'
+                      },
+          'base_ref' => undef,
+          'repository' => {
+                            'language' => 'HTML',
+                            'assignees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/assignees{/user}',
+                            'merges_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/merges',
+                            'deployments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/deployments',
+                            'owner' => {
+                                         'email' => 'bhat.gurunandan@gmail.com',
+                                         'name' => 'Bhat-Gurunandan'
+                                       },
+                            'name' => 'AlmostIsland',
+                            'homepage' => undef,
+                            'fork' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                            'git_commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/commits{/sha}',
+                            'forks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/forks',
+                            'updated_at' => '2016-05-13T19:42:48Z',
+                            'collaborators_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/collaborators{/collaborator}',
+                            'has_downloads' => $VAR1->{'repository'}{'fork'},
+                            'size' => 60553,
+                            'mirror_url' => undef,
+                            'releases_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/releases{/id}',
+                            'trees_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/trees{/sha}',
+                            'languages_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/languages',
+                            'contributors_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contributors',
+                            'hooks_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/hooks',
+                            'downloads_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/downloads',
+                            'svn_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'compare_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/compare/{base}...{head}',
+                            'git_url' => 'git://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'milestones_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/milestones{/number}',
+                            'issues_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues{/number}',
+                            'issue_events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/events{/number}',
+                            'commits_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/commits{/sha}',
+                            'git_refs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/refs{/sha}',
+                            'ssh_url' => 'git@github.com:Bhat-Gurunandan/AlmostIsland.git',
+                            'issue_comment_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/issues/comments{/number}',
+                            'watchers_count' => 0,
+                            'forks' => 0,
+                            'default_branch' => 'master',
+                            'id' => 58767964,
+                            'clone_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland.git',
+                            'git_tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/tags{/sha}',
+                            'teams_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/teams',
+                            'subscribers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscribers',
+                            'keys_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/keys{/key_id}',
+                            'created_at' => 1463168566,
+                            'private' => $VAR1->{'repository'}{'fork'},
+                            'blobs_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/git/blobs{/sha}',
+                            'statuses_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/statuses/{sha}',
+                            'pulls_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/pulls{/number}',
+                            'full_name' => 'Bhat-Gurunandan/AlmostIsland',
+                            'branches_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/branches{/branch}',
+                            'subscription_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/subscription',
+                            'stargazers_count' => 0,
+                            'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'description' => 'AlmostIsland online literature journal website',
+                            'pushed_at' => 1473890116,
+                            'master_branch' => 'master',
+                            'comments_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/comments{/number}',
+                            'has_issues' => $VAR1->{'sender'}{'site_admin'},
+                            'forks_count' => 0,
+                            'stargazers' => 0,
+                            'notifications_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/notifications{?since,all,participating}',
+                            'labels_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/labels{/name}',
+                            'contents_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/contents/{+path}',
+                            'events_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/events',
+                            'open_issues' => 0,
+                            'stargazers_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/stargazers',
+                            'open_issues_count' => 0,
+                            'has_pages' => $VAR1->{'sender'}{'site_admin'},
+                            'html_url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland',
+                            'has_wiki' => $VAR1->{'repository'}{'fork'},
+                            'tags_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/tags',
+                            'watchers' => 0,
+                            'archive_url' => 'https://api.github.com/repos/Bhat-Gurunandan/AlmostIsland/{archive_format}{/ref}'
+                          },
+          'before' => 'fb9fb2d9f89b5748d10f71bfb16406c5c32e8012',
+          'created' => $VAR1->{'sender'}{'site_admin'},
+          'forced' => $VAR1->{'sender'}{'site_admin'},
+          'deleted' => $VAR1->{'sender'}{'site_admin'},
+          'compare' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/compare/fb9fb2d9f89b...b0496f24fe18',
+          'commits' => [
+                         {
+                           'id' => 'b0496f24fe18609456450162972358ece74d070f',
+                           'tree_id' => 'bbb37a45b3130e79a7ef864e63b22d849c63cf39',
+                           'removed' => [],
+                           'added' => [],
+                           'committer' => {
+                                            'username' => 'Bhat-Gurunandan',
+                                            'email' => 'gbhat@pobox.com',
+                                            'name' => 'Gurunandan Bhat'
+                                          },
+                           'timestamp' => '2016-09-14T23:55:09+02:00',
+                           'modified' => [
+                                           'README.md'
+                                         ],
+                           'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/b0496f24fe18609456450162972358ece74d070f',
+                           'distinct' => $VAR1->{'repository'}{'fork'},
+                           'author' => {
+                                         'email' => 'gbhat@pobox.com',
+                                         'username' => 'Bhat-Gurunandan',
+                                         'name' => 'Gurunandan Bhat'
+                                       },
+                           'message' => 'Added explanatory note'
+                         }
+                       ],
+          'head_commit' => {
+                             'timestamp' => '2016-09-14T23:55:09+02:00',
+                             'committer' => {
+                                              'username' => 'Bhat-Gurunandan',
+                                              'email' => 'gbhat@pobox.com',
+                                              'name' => 'Gurunandan Bhat'
+                                            },
+                             'added' => [],
+                             'removed' => [],
+                             'id' => 'b0496f24fe18609456450162972358ece74d070f',
+                             'tree_id' => 'bbb37a45b3130e79a7ef864e63b22d849c63cf39',
+                             'message' => 'Added explanatory note',
+                             'author' => {
+                                           'username' => 'Bhat-Gurunandan',
+                                           'email' => 'gbhat@pobox.com',
+                                           'name' => 'Gurunandan Bhat'
+                                         },
+                             'distinct' => $VAR1->{'repository'}{'fork'},
+                             'modified' => [
+                                             'README.md'
+                                           ],
+                             'url' => 'https://github.com/Bhat-Gurunandan/AlmostIsland/commit/b0496f24fe18609456450162972358ece74d070f'
+                           },
+          'ref' => 'refs/heads/master',
+          'pusher' => {
+                        'name' => 'Bhat-Gurunandan',
+                        'email' => 'bhat.gurunandan@gmail.com'
+                      }
+        };
+ at /home/ec2-user/repos/AISync/aisync.pl line 77
+
+2016-09-14T23:55:16 [DEBUG] [/sync] Validation: sha1=9561f26a9d5a22e62e3e6718d4d048a460c4df32|sha1=9561f26a9d5a22e62e3e6718d4d048a460c4df32 Matched: Yes at /home/ec2-user/repos/AISync/aisync.pl line 83
+
+2016-09-14T23:55:16 [DEBUG] [/sync] Head Commit on Local|Remote is: fb9fb2d9f89b5748d10f71bfb16406c5c32e8012|b0496f24fe18609456450162972358ece74d070f at /home/ec2-user/repos/AISync/aisync.pl line 94
+
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists. at /home/ec2-user/repos/AISync/aisync.pl line 100.
+Redundant argument in sprintf at /home/ec2-user/perl5/perlbrew/perls/perl-5.24.0/lib/site_perl/5.24.0/Log/Minimal.pm line 195.
+2016-09-14T23:55:16 [DEBUG] [/sync] Pull Status:  at /home/ec2-user/repos/AISync/aisync.pl line 101
+
+2016-09-14T23:55:17 [DEBUG] [/sync] Build Status: $VAR1 = [
+          22
+        ];
+ at /home/ec2-user/repos/AISync/aisync.pl line 105
+
+127.0.0.1 - - [14/Sep/2016:23:55:18 +0200] "POST /sync HTTP/1.0" 200 1 "-" "GitHub-Hookshot/a5ffa81"
