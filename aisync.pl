@@ -21,15 +21,16 @@ use Web::Simple qw/MyApplication/;
 
     my $home = $ENV{HOME};
     my $config = {
-        git             => '/usr/bin/git',
-        secret          => 'StriverConniver',
-        git_work_tree   => $home . '/repos/AlmostIsland',
-        committer_email => 'gbhat@pobox.com',
-        committer_name  => 'Gurunandan Bhat',
-        site_builder    => $home . '/repos/AICode/bin/aiweb.pl test',
-        email_creds     => $home . '/.ssh/email',
-        email_from      => 'gbhat@pobox.com',
-        email_to        => 'gbhat@pobox.com',
+        git                => '/usr/bin/git',
+        secret             => 'StriverConniver',
+        git_work_tree      => $home . '/repos/AlmostIsland',
+        committer_email    => 'gbhat@pobox.com',
+        committer_name     => 'Gurunandan Bhat',
+        site_builder       => $home . '/repos/AICode/bin/aiweb.pl test',
+        site_source_folder => 'source',
+        email_creds        => $home . '/.ssh/email',
+        email_from         => 'gbhat@pobox.com',
+        email_to           => 'gbhat@pobox.com',
     };
 
     sub dispatch_request {
@@ -57,7 +58,7 @@ use Web::Simple qw/MyApplication/;
             else {
                 $log = "Cannot match GitHub secret"
             }
-            send_email($log);
+            $self->send_email($log);
 
             return [
                 200,
@@ -85,6 +86,7 @@ use Web::Simple qw/MyApplication/;
         return 1 if $matched;
     }
 
+
     sub build {
 
         my ($self, $repo) = @_;
@@ -94,40 +96,58 @@ use Web::Simple qw/MyApplication/;
         debugf(sprintf('Head Commit on Local|Remote is: %s|%s', $head_commit, $remote_head_commit));
 
         my $log = ['Head Commit on Local|Remote is: ' . $head_commit . '|' . $remote_head_commit];
-        if ( $head_commit ne $remote_head_commit ) {
+        return $log if $head_commit eq $remote_head_commit;
 
-            my @reset = $repo->run(reset => '--hard', 'origin/master');
-            push @reset, ($repo->run(pull => 'origin',  'master'));
-            debugf('Pull Status: ', Dumper \@reset);
 
-            my @action = `$config->{site_builder}`;
-            my @build = @action || ($?);
-            debugf('Build Status: ' . Dumper(\@build));
+        my @reset = $repo->run(reset => '--hard', 'origin/master');
+        push @reset, ($repo->run(pull => 'origin',  'master'));
+        debugf('Pull Status: ', Dumper \@reset);
 
-            my @refresh;
-            push @refresh, ($repo->run(add => '.'));
-            push @refresh, ($repo->run(commit => '-m', sprintf('Automated Build %s', scalar localtime)));
-            push @refresh, ($repo->run(push => 'origin', 'master'));
-            push @refresh, ($repo->run(push => 'striverconniver', 'master'));
-            debugf('Refresh Status: ', Dumper(\@refresh));
+        # Check if any source files have changed
+        $self->{_build_required} = 0;
 
-            push @$log, @reset, @build, @refresh;
+        my $src_folder = $config->{site_source_folder};
+        BUILD_TEST_DONE:
+        for my $commit ( @{ $self->{_payload}->{commits} } ) {
+            for my $modified_file ( @{ $commit->{modified} } ) {
+                next unless $modified_file =~ /^$src_folder\//;
+                $self->{_build_required} = 1;
+                last BUILD_TEST_DONE;
+            }
         }
+
+        my @build;
+        do {
+            my @action = `$config->{site_builder}`;
+            @build = @action || ($?);
+            debugf('Build Status: ' . Dumper(\@build));
+        } if $self->{_build_required};
+
+        my @refresh;
+        push @refresh, ($repo->run(add => '.'));
+        push @refresh, ($repo->run(commit => '-m', sprintf('Automated Build %s', scalar localtime)));
+        push @refresh, ($repo->run(push => 'origin', 'master'));
+        push @refresh, ($repo->run(push => 'striverconniver', 'master'));
+        debugf('Refresh Status: ', Dumper(\@refresh));
+
+        push @$log, @reset, @build, @refresh;
 
         return $log;
     }
 
     sub send_email {
 
-        my $log = shift;
+        my ($self, $log) = @_;
+
+        my $action = sprintf('Automated %s Log', $self->{_build_required} ? 'Build and Pull' : 'Pull');
         my $email = Email::Simple->create(
             header => [
                 From => $config->{email_from},
                 To => $config->{email_to},
                 ($config->{email_cc} ? (Cc => $config->{email_cc}) : ()),
-                Subject => sprintf('Automated Build Log: %s', scalar localtime),
+                Subject => sprintf('%s: %s', $action, scalar localtime),
             ],
-            body => "Automated Build and Update Log:\n" . Dumper($log),
+            body => "$action:\n" . Dumper($log),
         );
 
         my $creds;
