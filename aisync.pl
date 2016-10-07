@@ -108,7 +108,7 @@ use Web::Simple qw/MyApplication/;
             push @refresh, ($repo->run(add => '.'));
             push @refresh, ($repo->run(commit => '-m', sprintf('Automated Build %s', scalar localtime)));
             push @refresh, ($repo->run(push => 'origin', 'master'));
-            push @refresh, ($repo->run(push => 'striverconniver', 'master'));
+            # push @refresh, ($repo->run(push => 'striverconniver', 'master'));
             debugf('Refresh Status: ', Dumper(\@refresh));
 
             push @$log, @reset, @build, @refresh;
